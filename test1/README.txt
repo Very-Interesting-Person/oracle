@@ -24,7 +24,7 @@
 
   ​		用户名：system ， 密码123， 数据库名称：pdborcl，端口号：1521
 
-  ![image-20210308143349137](C:\Users\ZHL\AppData\Roaming\Typora\typora-user-images\image-20210308143349137.png)
+  ![image-连接数据库图示](https://github.com/zenghelin/oracle/blob/main/test1/experience1-1.png)
 
 运行教材的脚本
 
