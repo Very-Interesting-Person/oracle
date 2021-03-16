@@ -8,13 +8,15 @@
 
 # 实验1：SQL语句的执行计划分析与优化指导
 
-## 
+
+
+
+
+#### 学号：201810414206 	班级：软工二班 	姓名：曾河霖
 
 ## 实验目的
 
 分析SQL执行计划，执行SQL语句的优化指导。理解分析SQL语句的执行计划的重要作用。
-
-## 
 
 ## 实验内容
 
@@ -24,7 +26,7 @@
 
   ​		用户名：system ， 密码123， 数据库名称：pdborcl，端口号：1521
 
-  ![image-连接数据库图示](https://github.com/zenghelin/oracle/blob/main/test1/experience1-1.png)
+  ![image-20210308143349137](experience1-1.png)
 
 运行教材的脚本
 
@@ -150,9 +152,12 @@ Predicate Information (identified by operation id):
                0  redo synch time overhead count (  2ms)
                0  redo synch time overhead count (  8ms)
 
+
 ```
 
-由对比可发现 查询语句1的CPU占用率要低于查询语句2，故查询语句1执行速度快些。
+## 分析
+
+由对比可发现 查询语句1的CPU占用率要低于查询语句2，故查询语句1执行速度快些。并且耗时多的都在进行函数运行的时候。
 
 - 设计自己的查询语句，并作相应的分析，查询语句不能太简单。
 
@@ -216,7 +221,7 @@ Predicate Information (identified by operation id):
 
 ```
 
-
+## 分析
 
 书写查询语句时，涉及到计算的时候用时以及占用的CPU会更多。
 
