@@ -315,7 +315,7 @@ between to_date('2017-1-1','yyyy-mm-dd') and to_date('2021-6-1','yyyy-mm-dd');
 ```sql
 set autotrace on
 
-select * from SHUIJINGYELONG_1.orders_nospace where order_date
+select * from ZHL.orders_nospace where order_date
 between to_date('2017-1-1','yyyy-mm-dd') and to_date('2017-6-1','yyyy-mm-dd');
 ```
 
